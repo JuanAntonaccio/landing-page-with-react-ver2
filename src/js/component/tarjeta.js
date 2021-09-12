@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Tarjeta = (props = () => {
+const Tarjeta = props => {
 	return (
 		<div>
 			<div className="card" style={{ width: "18rem" }}>
@@ -20,7 +20,7 @@ const Tarjeta = (props = () => {
 			</div>
 		</div>
 	);
-});
+};
 
 Tarjeta.propTypes = {
 	titulo: PropTypes.string,
