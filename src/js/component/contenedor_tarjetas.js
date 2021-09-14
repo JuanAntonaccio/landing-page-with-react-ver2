@@ -1,9 +1,9 @@
 import React from "react";
 import Tarjeta from "./tarjeta";
 let dir1 = "https://picsum.photos/200/300";
-let dir2 = "https://picsum.photos/200/300";
-let dir3 = "https://picsum.photos/200/300";
-let dir4 = "https://picsum.photos/200/300";
+let dir2 = "https://picsum.photos/201/301";
+let dir3 = "https://picsum.photos/199/302";
+let dir4 = "https://picsum.photos/198/303";
 const Contenedor_Tarjetas = () => {
 	const tarjetas = [
 		{
